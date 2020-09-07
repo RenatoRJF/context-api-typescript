@@ -1,0 +1,45 @@
+.App {
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+.App input {
+    width: 100%;
+    height: 50px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.App input:focus {
+    border-color: #000;
+}
+
+.App ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.App ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f1f1f1;
+    transition: background-color 0.5s, color 0.5s;
+    padding: 15px 20px;
+    box-sizing: border-box;
+}
+
+.App ul li:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.App ul li svg {
+    cursor: pointer;
+}
